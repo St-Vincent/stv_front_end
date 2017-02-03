@@ -1,0 +1,261 @@
+﻿#mapCanvas{
+    width:611px; height:500px;
+    background-color: #e5e3df;
+}
+#mapCanvas.smallerMap{
+    width:53%;
+    float:left;
+}
+.mapHolder .disclaimer{
+    font-family:arial, sans-serif;
+}
+#bubble {
+    font-family:arial, sans-serif;
+    color:#666;
+}
+.bubbleNav li{
+    margin:0 5px 0 0;
+    float:left;
+}
+#bubble .hide{
+    display:none;
+}
+.bubbleNav a{
+    display:block;
+    text-decoration:none;
+    padding:6px 20px 4px;
+    border:1px solid #666;
+    border-radius:8px 8px 0 0;
+    border-bottom:none;
+}
+.bubbleNav a:hover,
+.bubbleNav .on a {
+    background: #eee;
+}
+.maps .bubbleNav {
+    width:91%;
+    overflow:hidden;
+    list-style:none;
+    margin:0 0 10px;
+    padding:0;
+}
+#bubble a{
+    font-size:12px;
+    color:#4F83B2;
+}
+.bLocation{
+    overflow:hidden;
+}
+.bLocation h2{
+    font-weight:bold;
+    padding-bottom:5px;
+    font-size:12px;
+    line-height:16px;
+    border-bottom:1px solid #666;
+    margin-bottom:10px;
+    color:#666;
+}
+.bLocation img,
+.addressContent{
+    float:left;
+}
+.addressContent{
+    width:180px;
+    font-size:11px;
+    padding-left:10px;
+}
+.addressContent p{
+    margin:0;
+}
+.bDescription{
+    min-height:96px;
+}
+.bDescription p{margin:0;}
+.directions{
+    margin-top:10px;
+}
+.directions span{
+    font-weight:bold;
+}
+.inputAddress{
+    margin:10px 0 0;
+}
+#saddr{
+    width:98%;
+}
+#listLocationsHolder.singleItemList{
+    float:left;
+    width:305px;
+    height:400px;
+    margin-right:20px;
+    padding-bottom:0;
+    overflow-y:scroll;
+}
+#listLocationsHolder{
+    padding-bottom:50px;
+    overflow:hidden;
+}
+#listLocationsHolder ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#listLocationsHolder.singleItemList li{
+    width:100%;
+}
+#listLocationsHolder li{
+    width:315px;
+    float:left;
+    padding:15px 0px;
+    margin:0;
+    border-bottom:1px solid #ccc;
+}
+#listLocationsHolder .odd{
+    margin-right:60px;
+}
+#listLocationsHolder.singleItemList .odd{
+    margin-right:0;
+}
+.locInfoHolder{
+    float:left;
+    width:265px;
+    margin-left:20px;
+}
+.singleItemList .locInfoHolder{
+    width:245px;
+}
+.locInfoHolder h2{
+    font-size:15px;
+    line-height:19px;
+    margin-bottom:4px;
+}
+.locInfoHolder p{
+    margin:0;
+}
+#listLocationsHolder .markerLink{
+    float:left;
+}
+.locationInfo {
+position: relative;
+width: 170px;
+padding-right: 15px;
+font-size: 13px;
+line-height: 16px;
+overflow: hidden;
+}
+.locationInfo img {
+    max-height: 160px;
+    margin-bottom: 1px;
+}
+.locationInfo .name {
+width: 175px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+font: 13px 'Gotham', Arial, sans-serif;
+font-style: normal;
+vertical-align: bottom;
+color: #999;
+margin: 0;
+}
+.locationInfo a .name {
+    color: #2a7197;
+}
+.locationInfo > a:hover .name {
+    color: #999;
+}
+.physicianDetail .locationInfo > div {
+    display: none;
+}
+.locationInfo > div {
+    padding: 13px 0 0;
+}
+.locationInfo .addressWrap {
+    padding: 10px 0;
+}
+.homepage .locationInfo .addressWrap,
+.physicianDetail .locationInfo .addressWrap {
+    padding-top: 10px;
+}
+.locationInfo .addressWrap ul {
+float: left;
+width: 180px;
+margin-left: 0;
+margin-right: 0;
+cursor: text;
+list-style-type: none;
+padding: 0;
+}
+.locationInfo .addressWrap li {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-family: 'Gotham', MyriadPro-Semibold, 'Myriad Pro Semibold', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+}
+.locationInfo a.directionsBtn {
+float: left;
+width: 95px;
+margin-top: 0;
+margin-right: 0;
+font-size: 13px;
+text-align: center;
+color: #fff;
+padding:7px;
+}
+.locationInfo a.directionsBtn:hover {
+    text-decoration: none;
+}
+.locationInfo a.directionsBtn:after .rtArrow, 
+.locationInfo .subHdr a:after .rtArrow {
+    font-size: 11px;
+	margin-left:4px;
+}
+.locationInfo .serviceWrap {
+    border-top: 1px solid #e6e5e1;
+}
+.locationInfo .subHdr {
+    margin: 0 0 10px;
+    font-size: 20px;
+    cursor: text;
+}
+.locationInfo .subHdr a {
+    float: right;
+    font-size: 13px;
+}
+.locationInfo p {
+    margin-bottom: 0;
+    cursor: text;
+}
+.spaninvisible {
+    display: none;
+    visibility: hidden;
+}
+
+.physicianDetail .markerLabels {
+    position: absolute;
+    bottom: 28px;
+    right: 6px;
+    width: 14px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;           
+    white-space: nowrap;
+}
+
+.noResults {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    position: relative;
+    top: 70px;
+    margin-bottom: -17px;
+    z-index: 999;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.hospitalLbl,
+.emergCareLbl,
+.immedCareLbl {
+    cursor: pointer;
+}
+
