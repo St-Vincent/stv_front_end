@@ -2017,6 +2017,90 @@ fieldset[disabled] .btn {
 }
 }
 
+/*  NEW SOCIAL STYLE */
+.panel-heading {
+    padding: 1px 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 70px;
+}
+
+.socialpadding {
+	 max-height: calc(100% - 100px);
+	height:300px;
+	overflow:scroll;
+	padding:  0 2%;	
+	margin-top:10px;
+
+}
+
+.socialpadding-facebook {
+	max-height: calc(100% - 100px);
+	height:740px;
+	overflow: scroll;
+	padding:  0 2%;	
+	
+
+}
+
+
+.wrap {
+height:400px;
+	margin: 5px;
+	
+}
+
+
+.wrap-fb {
+height:820px;
+	margin: 5px;
+}
+
+
+
+.dropbtn {
+    background-color: #003f5f;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    text-align: right;
+    color: white;
+    padding: 9px 20px 8px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 160px;
+	
+}
+
+.dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 5px;
+    margin-left: 10px;
+    z-index: 9999;
+	line-height:1em;
+	
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 14px;
+	font-weight:500;
+}
+
+
+
 /* TILES AND PANEL BLOCKS */
 
 .tile-block {
