@@ -1850,6 +1850,10 @@ a.btn {
   white-space:normal;
 }
 
+.btn-no-white-space {
+white-space:nowrap;
+}
+
 .btn:hover,
 a.btn:hover,
 .btn:active,
