@@ -2078,7 +2078,8 @@ height:820px;
     margin-top: 15px;
     margin-right: 5px;
     margin-left: 5px;
-    
+    width: auto;
+    white-space:nowrap;
 	
 }
 
