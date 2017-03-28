@@ -214,6 +214,15 @@ Pink - #E50177
 	margin: 10px 0px 7px;
 }
 
+.caption h4 {
+	white-space:normal;
+	text-align:center;
+}
+
+.caption h4 a {
+	margin-bottom: 5px;
+
+}
 
 @media (max-width: 767px){
 
@@ -1058,15 +1067,6 @@ img {
 	margin:0 auto;
 }
 
-.caption h4 {
-	white-space:normal;
-	text-align:center;
-}
-
-.caption h4 a {
-	margin-bottom: 5px;
-
-}
 }
 @media (min-width: 420px) and (max-width: 767px) {
 .thumbnail-service img {
