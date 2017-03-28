@@ -1069,8 +1069,8 @@ img {
 }
 }
 @media (min-width: 420px) and (max-width: 767px) {
-img {
-    max-width: 186px !important;
+.thumbnail-service img {
+    max-width: 186px;
 }
 }
 @media (max-width: 479px) {
