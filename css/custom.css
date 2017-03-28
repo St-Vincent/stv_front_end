@@ -1177,6 +1177,7 @@ table {
 .thumbnail-doc .caption p {
 	font-size: 13px;
 	margin: 5px 0 0 0;
+	text-align:center;
 }
 
 .thumbnail-location .caption h4 {
