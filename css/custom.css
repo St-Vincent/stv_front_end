@@ -1066,12 +1066,6 @@ th {
   background-color: #E4E4E4;
 }
 
-@media (min-width: 420px) {
-img {
-	margin:0 auto;
-}
-
-}
 @media (min-width: 420px) and (max-width: 767px) {
 .thumbnail-service img {
     max-width: 186px;
